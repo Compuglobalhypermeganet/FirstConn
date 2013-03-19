@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp" >
+
+        <ImageView
+            android:id="@+id/imageview01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="10dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/imagestring"
+            android:cropToPadding="true"
+            android:tag="@string/imagestring" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textview01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="200dp"
+            android:text="@string/textstring" />
+    </AbsoluteLayout>
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button03" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true"
+        android:text="@string/userName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:text="@string/userPass" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="" />
+
+</LinearLayout>

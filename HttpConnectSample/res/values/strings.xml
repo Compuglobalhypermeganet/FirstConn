@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HttpConnectSample!</string>
+    <string name="app_name">Http Connect</string>
+<string name="button03">Click me</string>
+<string name="imagestring">Here would be the downloaded Image</string>
+<string name="textstring">Here would come the downloaded text</string>
+<string name="userName">48656830</string>
+<string name="userPass">6830</string>
+</resources>
