@@ -7,10 +7,10 @@ public class Equipo {
 	  private Vector<String> dni, nombre, situacion, amonestaciones, goles;
 	  private String nombre_e, tipo;
 	  private int golesPropiaPuerta;
-
+		private int PruebaenlaBranch;
 	public void consolaEquipo(){
 	  System.out.println("Nombre: "+getNombre());
-	  System.out.println("Tamaño: "+this.getSize());
+	  System.out.println("Tamaï¿½o: "+this.getSize());
 	  System.out.println("Tipo: "+getTipo());
 
 	    for (int i=0;i<this.getSize();i++)
@@ -112,4 +112,3 @@ public class Equipo {
 		  return false;
 	  }
 	}
-	
